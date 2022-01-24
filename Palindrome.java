@@ -4,6 +4,7 @@ import java.util.Stack;
 /**
  * @author Carl 
  * @version 1.0
+ * Assignment 2.2
  */ 
 public final class Palindrome
 {
@@ -30,7 +31,9 @@ public final class Palindrome
 	
 	/**
 	 * @param orginal, the String to scan
-	 * the Scanner object ignores punctuation and spaces and the tokens returned are concatenated to a single String. 
+	 * the Scanner object ignores punctuation and spaces and the tokens returned are concatenated to a single String.
+	 * Note: Scanner object is glitchy.
+	 * Assertion: Scanner object delimit input String without any glitch. 
 	 */
 	private void scan(String word)
 	{
